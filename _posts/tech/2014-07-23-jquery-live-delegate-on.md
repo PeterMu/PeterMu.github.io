@@ -14,10 +14,10 @@ live就是将绑定的事件以冒泡的形式绑定到document，是的，用li
 对象上。用on来模拟live就是这个样子：
 
 ```
-    //live
-    $('#id a').live('click', function(){})
-    //on
-    $(document).on('click', '#id a',function(){})
+//live
+$('#id a').live('click', function(){})
+//on
+$(document).on('click', '#id a',function(){})
 ```
 所有live绑定的事件，都放到document显然不妥，jQuery1.9 之后版本已经废弃这个方法了。
 
@@ -26,8 +26,8 @@ live就是将绑定的事件以冒泡的形式绑定到document，是的，用li
 delegate方法是将绑定的事件以冒泡的形式绑定到指定的父元素上。用on实现就是这个样子：
 
 ```
-    //delegate
-    $('#id').delegate('a','click',function(){})
-    //on
-    $('#id').on('click','a',function(){})
+//delegate
+$('#id').delegate('a','click',function(){})
+//on
+$('#id').on('click','a',function(){})
 ```
