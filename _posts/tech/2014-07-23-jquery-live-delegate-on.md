@@ -1,10 +1,9 @@
 --- 
 layout: post
-title:jQuery中live，delegate，on的区别 
+title: jQuery中live，delegate，on的区别 
 description: live和delegate都是由on实现的
 category: tech
 ---
-
 ## on
 on方法是一个很灵活的事件绑定方法，既可以绑定一个事件到某个dom上，也可以以事件冒泡的形式
 绑定事件。具体使用方法，参见Goolge。
